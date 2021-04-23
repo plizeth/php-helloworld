@@ -2,7 +2,7 @@
 <?php
 $url = "https://session-myhello.apps.sharedocp311cns.lab.rdu2.cee.redhat.com/";
 $metas = get_meta_tags($url);
-echo "<pre>"; print_r($metas); echo "</pre>"
+echo "<pre>"; print_r($metas); echo "</pre>";
 session_start();
 foreach (getallheaders() as $name => $value) {
 	 echo "$name: $value</br>";
