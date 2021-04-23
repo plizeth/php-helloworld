@@ -14,7 +14,6 @@ if(!curl_errno($ch))
  echo 'Se tardó ' . $info['total_time'] . ' segundos en enviar la petición a ' . $info['url'];
  print_r(array_values($info));
 
-}
 
 }
 
